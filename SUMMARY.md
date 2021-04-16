@@ -1,6 +1,13 @@
 # Summary
 * [首页](README.md)
 * [介绍](config/start.md)
+  * [关于吃货星球](config/start.md#gy)
+  * [为什么要使用吃货星球](config/start.md#why)
+  * [思维导图](config/start.md#swdt)
+  * [技术架构](config/start.md#jssm)
+  * [各版本说明](config/start.md#gbbsm)
+  * [官网](config/start.md#gw)
+  * [关于本文档](config/start.md#gybwd)
 * [准备工作](config/winssr.md)
   * [注册公众号](config/winsstap.md)
   * [注册小程序](config/macssr.md)
@@ -8,7 +15,6 @@
   * [购买服务器](config/macssr.md)
   * [配置服务器](config/macssr.md)
   * [各种证书](config/macssr.md)
-  
 * [安装](config/androidssr.md)
 * [功能介绍](config/androidssr.md)
   * [团购](config/winsstap.md)

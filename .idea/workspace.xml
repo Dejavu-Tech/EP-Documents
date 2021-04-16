@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2a0021f-6c41-4ba3-8814-1cfbdf71a486" name="Default Changelist" comment="" />
+    <list default="true" id="f2a0021f-6c41-4ba3-8814-1cfbdf71a486" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SUMMARY.md" beforeDir="false" afterPath="$PROJECT_DIR$/SUMMARY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_book/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/config/androidssr.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/config/androidssr.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/config/iosrocket.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/config/iosrocket.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/config/loss.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/config/loss.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/config/macssr.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/config/macssr.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/config/start.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/config/start.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/config/start.md" beforeDir="false" afterPath="$PROJECT_DIR$/_book/config/start.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/config/tos.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/config/tos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/config/update.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/config/update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/config/winssr.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/config/winssr.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/config/winsstap.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/config/winsstap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/search_plus_index.json" beforeDir="false" afterPath="$PROJECT_DIR$/_book/search_plus_index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/start.md" beforeDir="false" afterPath="$PROJECT_DIR$/config/start.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/winssr.md" beforeDir="false" afterPath="$PROJECT_DIR$/config/winssr.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,11 +32,15 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1mf7DmIU7gmvrlpVZJCHiAnTwTL" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="C:/吃货星球/小程序各版本/2.6.4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -57,10 +80,22 @@
       <workItem from="1610823554125" duration="1669000" />
       <workItem from="1610898118295" duration="629000" />
       <workItem from="1611685434011" duration="825000" />
+      <workItem from="1613408781536" duration="2452000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
