@@ -1,0 +1,291 @@
+
+{
+  "header": {
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20210723.162746.14028.001.json",
+    "dumpEventTime": "2021-07-23T16:27:46Z",
+    "processId": 14028,
+    "commandLine": [
+      "node",
+      "C:\\Users\\zhrro\\AppData\\Roaming\\npm\\\\node_modules\\gitbook-cli\\bin\\gitbook.js",
+      "serve"
+    ],
+    "nodejsVersion": "v11.12.0",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "11.12.0",
+      "v8": "7.0.276.38-node.18",
+      "uv": "1.26.0",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "67",
+      "nghttp2": "1.34.0",
+      "napi": "4",
+      "llhttp": "1.1.1",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1b",
+      "cldr": "34.0",
+      "icu": "63.1",
+      "tz": "2018e",
+      "unicode": "11.0"
+    },
+    "release": {
+      "name": "node",
+      "headersUrl": "https://nodejs.org/download/release/v11.12.0/node-v11.12.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v11.12.0/node-v11.12.0.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v11.12.0/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.19043",
+    "osVersion": "Windows 10 Pro",
+    "osMachine": "x86_64",
+    "host": "zhrrobert"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff6c5f0d35e",
+      "symbol": "SSL_SESSION_get0_peer+16478"
+    },
+    {
+      "pc": "0x00007ff6c5f0c204",
+      "symbol": "SSL_SESSION_get0_peer+12036"
+    },
+    {
+      "pc": "0x00007ff6c5f0ba1b",
+      "symbol": "SSL_SESSION_get0_peer+10011"
+    },
+    {
+      "pc": "0x00007ff6c5ff93f2",
+      "symbol": "uv_loop_fork+88258"
+    },
+    {
+      "pc": "0x00007ff6c641e72e",
+      "symbol": "v8::internal::FatalProcessOutOfMemory+798"
+    },
+    {
+      "pc": "0x00007ff6c641e667",
+      "symbol": "v8::internal::FatalProcessOutOfMemory+599"
+    },
+    {
+      "pc": "0x00007ff6c64d2144",
+      "symbol": "v8::internal::Heap::RootIsImmortalImmovable+14068"
+    },
+    {
+      "pc": "0x00007ff6c64c7f52",
+      "symbol": "v8::internal::Heap::CollectGarbage+7234"
+    },
+    {
+      "pc": "0x00007ff6c64c6768",
+      "symbol": "v8::internal::Heap::CollectGarbage+1112"
+    },
+    {
+      "pc": "0x00007ff6c64d0097",
+      "symbol": "v8::internal::Heap::RootIsImmortalImmovable+5703"
+    },
+    {
+      "pc": "0x00007ff6c64d0116",
+      "symbol": "v8::internal::Heap::RootIsImmortalImmovable+5830"
+    },
+    {
+      "pc": "0x00007ff6c6607fe1",
+      "symbol": "v8::internal::Factory::NewFillerObject+49"
+    },
+    {
+      "pc": "0x00007ff6c66c1ed6",
+      "symbol": "v8::internal::StoreBuffer::StoreBufferOverflow+27190"
+    },
+    {
+      "pc": "0x000003e0e0450481",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 1495699456,
+    "totalCommittedMemory": 1495699456,
+    "usedMemory": 1437378816,
+    "availableMemory": 33694592,
+    "memoryLimit": 1526909922,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 524288,
+        "committedMemory": 524288,
+        "capacity": 515584,
+        "used": 33520,
+        "available": 482064
+      },
+      "new_space": {
+        "memorySize": 4194304,
+        "committedMemory": 4194304,
+        "capacity": 2062336,
+        "used": 182568,
+        "available": 1879768
+      },
+      "old_space": {
+        "memorySize": 1472401408,
+        "committedMemory": 1472401408,
+        "capacity": 1422678264,
+        "used": 1422122336,
+        "available": 555928
+      },
+      "code_space": {
+        "memorySize": 3145728,
+        "committedMemory": 3145728,
+        "capacity": 2522912,
+        "used": 2522912,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 3682304,
+        "committedMemory": 3682304,
+        "capacity": 2219040,
+        "used": 2219040,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 11751424,
+        "committedMemory": 11751424,
+        "capacity": 41075272,
+        "used": 10298440,
+        "available": 30776832
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 259.406,
+    "kernelCpuSeconds": 752,
+    "cpuConsumptionPercent": 28.7413,
+    "maxRss": 2890952704,
+    "pageFaults": {
+      "IORequired": 1529937,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 33946,
+      "writes": 15780
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "=C:": "C:\\Users\\zhrro\\Downloads\\最新影视剧V2.0吾爱\\EP-Document",
+    "dp0": "C:\\Users\\zhrro\\AppData\\Roaming\\npm\\",
+    "HOME": "C:\\Users\\zhrro",
+    "M2_HOME": "D:\\apache-maven-3.6.2-bin",
+    "ProgramFiles": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "USERNAME": "zhrro",
+    "COMPUTERNAME": "ZHRROBERT",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "IDEA_INITIAL_DIRECTORY": "C:\\Program Files\\JetBrains\\ideaIU-2019.2.4.win\\bin",
+    "FPS_BROWSER_USER_PROFILE_STRING": "Default",
+    "OS": "Windows_NT",
+    "NUMBER_OF_PROCESSORS": "12",
+    "_prog": "node",
+    "__INTELLIJ_COMMAND_HISTFILE__": "C:\\Users\\zhrro\\.IntelliJIdea2019.2\\config\\terminal\\history\\history-124",
+    "SystemDrive": "C:",
+    "TEMP": "C:\\Users\\zhrro\\AppData\\Local\\Temp",
+    "LOCALAPPDATA": "C:\\Users\\zhrro\\AppData\\Local",
+    "IntelliJ IDEA": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2019.1\\bin;",
+    "PUBLIC": "C:\\Users\\Public",
+    "ProgramData": "C:\\ProgramData",
+    "USERPROFILE": "C:\\Users\\zhrro",
+    "PROCESSOR_REVISION": "3f02",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 63 Stepping 2, GenuineIntel",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "INTEL_DEV_REDIST": "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\",
+    "FPS_BROWSER_APP_PROFILE_STRING": "Internet Explorer",
+    "PROCESSOR_LEVEL": "6",
+    "SystemRoot": "C:\\WINDOWS",
+    "CATALINA_BASE": "D:\\apache-tomcat-8.5.47",
+    "=::": "::\\",
+    "ProgramW6432": "C:\\Program Files",
+    "APPDATA": "C:\\Users\\zhrro\\AppData\\Roaming",
+    "LOGONSERVER": "\\\\ZHRROBERT",
+    "CLASSPATH": "D:\\apache-tomcat-8.5.47\\lib\\servlet-api.jar;.;C:\\Program Files\\Java\\jdk1.8.0_231\\lib\\dt.jar;C:\\Program Files\\Java\\jdk1.8.0_231\\lib\\tools.jar;.;C:\\Program Files\\Java\\jdk1.8.0_231;C:\\Program Files\\Java\\jdk1.8.0_231\\jre\\lib;",
+    "PSModulePath": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules;C:\\Program Files\\Intel\\;C:\\Program Files (x86)\\Microsoft SQL Server\\110\\Tools\\PowerShell\\Modules\\",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC;.RB;.RBW",
+    "FOLDER_MARKER_DIR": "C:\\Program Files (x86)\\Folder Marker",
+    "TERMINAL_EMULATOR": "JetBrains-JediTerm",
+    "MSMPI_BIN": "C:\\Program Files\\Microsoft MPI\\Bin\\",
+    "JAVA_HOME": "C:\\Program Files\\Java\\jdk1.8.0_231",
+    "ChocolateyLastPathUpdate": "131975793995224971",
+    "asl.log=Destination": "file",
+    "USERDOMAIN": "ZHRROBERT",
+    "MIC_LD_LIBRARY_PATH": "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\compiler\\lib\\intel64_win_mic",
+    "SESSIONNAME": "Console",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "HOMEPATH": "\\Users\\zhrro",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "windir": "C:\\WINDOWS",
+    "TMP": "C:\\Users\\zhrro\\AppData\\Local\\Temp",
+    "ComSpec": "C:\\WINDOWS\\system32\\cmd.exe",
+    "PATH": "C:\\Users\\zhrro\\Downloads\\最新影视剧V2.0吾爱\\EP-Document\\node_modules\\.bin;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64_win\\compiler;C:\\Program Files (x86)\\NetSarang\\Xshell 6\\;\"D:\\apache-tomcat-8.5.47\\bin;D:\\apache-tomcat-8.5.47\\lib\";C:\\Python27\\;C:\\Python27\\Scripts;C:\\Program Files\\Microsoft MPI\\Bin\\;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\nodejs\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;.;C:\\Program Files\\Java\\jdk1.8.0_231\\bin;C:\\Program Files\\Java\\jdk1.8.0_231\\jre\\bin;D:\\apache-maven-3.6.2-bin\\bin;C:\\Program Files\\apache-maven-3.6.0\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\110\\DTS\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Ruby30-x64\\bin;C:\\Users\\zhrro\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\zhrro\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\zhrro\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\zhrro\\AppData\\Roaming\\npm;C:\\Program Files\\apache-maven-3.6.0\\bin;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2019.1\\bin;;C:\\Program Files\\Java\\jdk1.8.0_231\\bin;C:\\Users\\zhrro\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Users\\zhrro\\AppData\\Roaming\\EasyShu\\MiniBlink",
+    "OneDriveConsumer": "C:\\Users\\zhrro\\OneDrive",
+    "CATALINA_HOME": "D:\\apache-tomcat-8.5.47",
+    "HOMEDRIVE": "C:",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "ChocolateyInstall": "C:\\ProgramData\\chocolatey",
+    "OneDrive": "C:\\Users\\zhrro\\OneDrive",
+    "USERDOMAIN_ROAMINGPROFILE": "ZHRROBERT",
+    "MAVEN_HOME": "C:\\Program Files\\apache-maven-3.6.0"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\System32\\bcrypt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\powrprof.dll",
+    "C:\\WINDOWS\\SYSTEM32\\UMPDC.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\SYSTEM32\\kernel.appcore.dll",
+    "C:\\WINDOWS\\System32\\bcryptprimitives.dll",
+    "C:\\WINDOWS\\System32\\NSI.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+    "C:\\WINDOWS\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\WINDOWS\\system32\\napinsp.dll",
+    "C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "C:\\WINDOWS\\system32\\wshbth.dll",
+    "C:\\WINDOWS\\system32\\NLAapi.dll",
+    "C:\\WINDOWS\\System32\\winrnr.dll"
+  ]
+}

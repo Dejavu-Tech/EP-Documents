@@ -17,16 +17,17 @@ body {
 }
 .markdown-section img {
   padding: 8px;
-  background: #e4e4e478;
+  /**background: #e4e4e478;**/
   transition: all 1s;
+  border-radius: 20px;
   box-sizing: border-box;
-  box-shadow: 0 0 4px #dcdcdc;
+  filter: drop-shadow(10px 5px 8px rgba(26,58,70,0.2));
   margin-left: 10px;
   margin-right: 10px;
   max-width: 95%;
 }
 .markdown-section img:hover {
-  box-shadow: 0 0 10px #bbb
+  filter: drop-shadow(10px 5px 15px rgba(26,58,70,0.4));
 }
 
 .exc-trigger {
