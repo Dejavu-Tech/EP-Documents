@@ -2,32 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2a0021f-6c41-4ba3-8814-1cfbdf71a486" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_book/config/ready.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/config/ready.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/report.20210723.162746.14028.001.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/ready.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report.20210723.162746.14028.001.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SUMMARY.md" beforeDir="false" afterPath="$PROJECT_DIR$/SUMMARY.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_book/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_book/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/config/androidssr.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/config/iosrocket.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/config/loss.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/config/macssr.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/_book.rar" beforeDir="false" afterPath="$PROJECT_DIR$/_book/_book.rar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/config/ready.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/config/ready.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/config/ready.md" beforeDir="false" afterPath="$PROJECT_DIR$/_book/config/ready.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_book/config/start.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/config/start.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_book/config/start.md" beforeDir="false" afterPath="$PROJECT_DIR$/_book/config/start.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/config/tos.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/_book/config/update.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/config/update.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/config/winssr.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/config/winsstap.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/config/winsstap.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/gitbook/gitbook-plugin-theme-fexa/fexa.css" beforeDir="false" afterPath="$PROJECT_DIR$/_book/gitbook/gitbook-plugin-theme-fexa/fexa.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/gitbook/fonts/fontawesome/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/_book/gitbook/fonts/fontawesome/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/gitbook/gitbook-plugin-fontsettings/fontsettings.js" beforeDir="false" afterPath="$PROJECT_DIR$/_book/gitbook/gitbook-plugin-fontsettings/fontsettings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/gitbook/gitbook-plugin-fontsettings/website.css" beforeDir="false" afterPath="$PROJECT_DIR$/_book/gitbook/gitbook-plugin-fontsettings/website.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/gitbook/gitbook.js" beforeDir="false" afterPath="$PROJECT_DIR$/_book/gitbook/gitbook.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/gitbook/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/_book/gitbook/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/gitbook/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/_book/gitbook/theme.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_book/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_book/search_plus_index.json" beforeDir="false" afterPath="$PROJECT_DIR$/_book/search_plus_index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/ready.md" beforeDir="false" afterPath="$PROJECT_DIR$/config/ready.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/start.md" beforeDir="false" afterPath="$PROJECT_DIR$/config/start.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/winsstap.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gitbook-plugin-theme-fexa/_assets/fexa.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/gitbook-plugin-theme-fexa/_assets/fexa.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +88,8 @@
       <workItem from="1611685434011" duration="825000" />
       <workItem from="1613408781536" duration="2452000" />
       <workItem from="1626977187910" duration="4305000" />
-      <workItem from="1627020402637" duration="23773000" />
+      <workItem from="1627020402637" duration="24418000" />
+      <workItem from="1627227671358" duration="13795000" />
     </task>
     <servers />
   </component>
