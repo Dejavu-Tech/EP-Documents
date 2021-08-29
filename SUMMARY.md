@@ -18,6 +18,8 @@
   * [后台搭建及部署](config/ready.md#htbs)
   * [各种证书](config/ready.md#gzzs)
 * [安装](config/setup.md)
+  * [后端](config/setup.md#hd)
+  * [前端](config/setup.md#qd)
 * [功能介绍](function/function.md)
   * [团购](function/function.md)
   * [商户](function/function.md)

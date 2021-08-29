@@ -169,7 +169,7 @@
 
 > 微信商户号是小程序、APP、H5等场景接入微信支付的必需支付平台，详细功能请自行查阅[腾讯客服页面](https://kf.qq.com/product/wechatpaymentmerchant.html)
 
-### 注册
+### 注册 <span id="zc"></span>
 
 打开[微信支付商户平台](https://pay.weixin.qq.com)，点击“成为商家”或“接入微信支付”
 
@@ -209,7 +209,7 @@
 
 10.审核成功后签署协议即完成注册
 
-### 配置证书和支付场景
+### 配置证书和支付场景 <span id="pz"></span>
 
 1.注册完成后点击“产品中心” -> “AppID账号管理” -> “关联AppID”
 
