@@ -3,6 +3,35 @@ body {
   letter-spacing: .2px;
   text-rendering: optimizeLegibility;
 }
+.book-summary::-webkit-scrollbar {
+  width: 7px;
+  height: 1px;
+}
+.body-inner::-webkit-scrollbar {
+  width: 7px;
+  height: 1px;
+}
+/*滚动条滑块*/
+.book-summary::-webkit-scrollbar-thumb {
+  border-radius: 7px;
+  -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+  background: #2c649a;
+}
+.body-inner::-webkit-scrollbar-thumb {
+  border-radius: 7px;
+  -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+  background: #c1c1c1;
+  height: 100px;
+}
+/*滚动条轨道*/
+.book-summary::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 1px rgba(0,0,0,0);
+  border-radius: 2px;
+}
+.body-inner::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 1px rgba(0,0,0,0);
+  border-radius: 2px;
+}
 .markdown-section h1,
 .markdown-section h2,
 .markdown-section h3,
@@ -21,13 +50,13 @@ body {
   transition: all 1s;
   border-radius: 20px;
   box-sizing: border-box;
-  filter: drop-shadow(10px 5px 8px rgba(26,58,70,0.2));
+  filter: drop-shadow(5px 5px 5px rgba(26,58,70,0.1));
   margin-left: 10px;
   margin-right: 10px;
   max-width: 95%;
 }
 .markdown-section img:hover {
-  filter: drop-shadow(10px 5px 15px rgba(26,58,70,0.4));
+  filter: drop-shadow(5px 5px 10px rgba(26,58,70,0.2));
 }
 
 .exc-trigger {
@@ -55,6 +84,7 @@ body {
 .book-body {
   top: 0px;
 }
+
 .book-summary ul.summary li a, .book-summary ul.summary li span {
   color: #fff;
 }
@@ -84,7 +114,7 @@ body {
 
 #book-search-input {
   position: absolute;
-  right: 40px;
+  right: 30px;
   top: 20px;
   display: inline-block;
   font-weight: bold;
@@ -97,13 +127,15 @@ body {
   user-select: none;
   background-color: rgba(0, 0, 0, 0);
   border: 1px solid #5199ff;
-  border-radius: .5rem;
+  border-radius: 1rem;
+  backdrop-filter: blur(10px);
+  webkit-backdrop-filter: blur(10px);
   transition: color 0.2s ease-in-out,background-color 0.2s ease-in-out,border-color 0.2s ease-in-out,box-shadow 0.2s ease-in-out;
   z-index: 9999;
 }
 
 #book-search-input input[type="text"] {
-  width: 80%;
+  width: 75%;
   padding: 0;
   color: #5199ff;
 }
@@ -122,11 +154,10 @@ body {
 
 .header-inner {
   width: 100%;
-  padding: 10px 30px;
+  padding: 17px 20px;
   margin: auto;
   *zoom: 1;
   height: 0px;
-  background: #111;
 }
 
 .header-inner:before,
@@ -144,7 +175,7 @@ body {
   float: left;
   height: 40px;
   width: 40px;
-  background: url('./logo.png');
+  background: url('./logo_mobile.png');
   background-size: 40px 40px;
   background-repeat: no-repeat;
 }
@@ -196,7 +227,7 @@ body {
 @media (max-width: 768px) {
   .book-summary,
   .book-body {
-    top: 101px;
+    top: 70px;
   }
   .header-inner #book-search-input {
     clear: both;

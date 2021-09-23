@@ -1,7 +1,7 @@
 # 产品介绍
 
 <p align="center">
-  <img src="https://image.ch871.com/new_logo.png" width=200px" align="center"/>
+  <img src="https://image.docs.ch871.com/new_logo.png" width=200px" align="center"/>
 </p>
 ## 关于EATER PLANET吃货星球 <span id="gy"></span>
 
@@ -97,7 +97,7 @@
 | 技术                 | 说明                | 官网                                                         |
 | -------------------- | ------------------- | ------------------------------------------------------------ |
 | thinkPHP       | 轻应用（小程序）后端开发框架        | [http://www.thinkphp.cn/](http://www.thinkphp.cn/) |
-| Node.js      | web应用及APP后端开发框架        | [http://www.thinkphp.cn/](http://www.thinkphp.cn/) |
+| Node.js      | web应用及APP后端开发框架        | [https://nodejs.org/](https://nodejs.org/) |
 | Swagger-UI           | Api文档生产工具        | [https://github.com/swagger-api/swagger-ui](https://github.com/swagger-api/swagger-ui) |
 | Hibernator-Validator | 验证框架            | [http://hibernate.org/validator/](http://hibernate.org/validator/) |
 | Docker               | 应用容器引擎        | [https://www.docker.com/](https://www.docker.com/)              |
@@ -135,7 +135,7 @@
 | PHP           | 7.1 | https://www.php.net/                        |
 | Pure-Ftpd | 1.0.49 | http://pureftpd.sourceforge.net/ |
 | phpMyAdmin | 4.8 | https://www.phpmyadmin.net/ |
-> 亦或直接安装堡塔Linux面板编译安装LNMP环境，版本请严格执行上表所列版本，否则将会出现不可预知错误！堡塔安装步骤请参阅[配置服务器](https://developer.qiniu.com/kodo/sdk/1239/java)。
+> 亦或直接安装堡塔Linux面板编译安装LNMP环境，版本请严格执行上表所列版本，否则将会出现不可预知错误！堡塔安装步骤请参阅[配置服务器](/config/ready.html#gmjpzfwq)。
 
 ### 第三方组件 <span id="dsfzj"></span>
 | 技术                 | 说明                | 官网                                                         |
@@ -163,19 +163,22 @@
 | 版本 | 功能 | 商用 | 快速部署费 | 更新及维护费 | 价格 | 版本获取 |
 | ----- | --------- | ----------- | ------- | ------- | ------- | ------- |
 | 免费版 | 仅提供单一的商品上架、分类和订单管理 | ❌ | - | 不定期免费更新 | 免费 | [GitHub仓库](https://github.com/Dejavu-Tech/EP-WechatApp) |
-| 单用户商用版 | 提供全功能电商模块 | ✔️ |1000元|1000元/年| 2800元，新版前端4080元 |[购买地址](https://www.ch871.com) |
-| 多用户商用版 | 提供全功能电商模块 | ✔️ |1000元|1000元/年| 3800元，新版前端5080元 |[购买地址](https://www.ch871.com) |
-| 二次开发授权 | 提供全功能电商模块及基础版前端 | ✔️ | - | - | 电询议价 | [详询作者](https://github.com/Dejavu-Tech/EP-WechatApp) |
+| 单用户商用版 | 提供全功能电商模块 | ✔️ |1000元|1000元/年| 3800元，新版前端4980元 |[购买地址](https://www.ch871.com) |
+| 多用户商用版 | 提供全功能电商模块 | ✔️ |1000元|1000元/年| 6800元，新版前端7980元 |[购买地址](https://www.ch871.com) |
+| 快速上线版 | 提供单用户全功能电商模块 | ✔️ | - | - | 2800元/年，新版前端3980元 | [购买地址](https://www.ch871.com) |
+| 二次开发授权 | 提供全功能电商模块及基础版前端 | ✔️ | - | - | 电询议价，新版不提供二次开发 | [详询作者](https://github.com/Dejavu-Tech/EP-WechatApp) |
+> 免费版：请遵循GPL v3.0开源协议。未遵循开源协议商用者，一经发现后果自负
 
-> 免费版：请遵循GPL v3.0开源协议。未遵循开源协议商用者，一经发现后果自负。
+> 快速上线版：使用本公司提供稳定的2核4G5M带宽云服务器，代理注册、发布小程序，提供云后台网站，购买即可上线使用（不提供多用户版本）
 
-> 二次开发按照合同约定授权于以下场景：开发基于吃货星球的面向大众如服务收费的网站或应用程序，或非大众如企业内部的特定网站或应用程序或用于项目投标，并于合同限定商用次数，吃货星球受国家计算机软件著作权保护，违者必追究法律责任。
+> 二次开发按照合同约定授权于以下场景：开发基于吃货星球的面向大众如服务收费的网站或应用程序，或非大众如企业内部的特定网站或应用程序或用于项目投标，并于合同限定商用环境、指定IP、软件有效期和最大部署数量，吃货星球受国家计算机软件著作权保护，违者必追究法律责任
 
 ###  演示版 
-#### 后台[https://demo.ch871.com](https://demo.ch871.com/)
+#### 后端 [https://demo.ch871.com](https://demo.ch871.com/)
+用户名：`epadmin` 密码：`19830908`
 #### 前端(微信扫码)
 
-![前端](https://image.ch871.com/value_img1_pc.png)
+![前端](https://image.docs.ch871.com/value_img1_pc.png)
 #### 新版前端(微信扫码)
 即将更新
 
@@ -187,9 +190,10 @@
 
 ### 合同模板
 有意向购买商用版的客户可下载合同模板以进一步了解本应用权限及购买事宜
-> [点击此处下载](https://image.ch871.com/value_img1_pc.png)
+> [点击此处下载](https://image.docs.ch871.com/吃货星球软件开发服务合同.pdf)
 
 ## 官网 <span id="gw"></span>
+[吃货星球官方网站](https://www.ch871.com/)(更新中)；
 [蒂佳芙科技官方网站](https://www.dejavu871.com/)(更新中)
 
 

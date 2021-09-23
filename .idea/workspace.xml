@@ -2,19 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2a0021f-6c41-4ba3-8814-1cfbdf71a486" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_book/config/setup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/config/setup.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/setup.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_book/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_book/_book.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_book/function/extension.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_book/function/extension.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_book/function/function.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_book/function/function.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_book/gitbook/gitbook-plugin-theme-fexa/logo_mobile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_book/operation/operation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_book/operation/operation.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/q&amp;a.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function/extension.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function/function.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/gitbook-plugin-theme-fexa/_assets/logo_mobile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operation/marketing.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operation/operation.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SUMMARY.md" beforeDir="false" afterPath="$PROJECT_DIR$/SUMMARY.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_book/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_book/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/_book.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/config/androidssr.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/config/iosquan.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/config/iosrocket.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/config/loss.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/config/macssr.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/_book/config/ready.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/config/ready.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_book/config/ready.md" beforeDir="false" afterPath="$PROJECT_DIR$/_book/config/ready.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/config/setup.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/config/setup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/config/setup.md" beforeDir="false" afterPath="$PROJECT_DIR$/_book/config/setup.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_book/config/start.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/config/start.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/config/start.md" beforeDir="false" afterPath="$PROJECT_DIR$/_book/config/start.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/config/tos.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/config/winssr.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/gitbook/gitbook-plugin-theme-fexa/fexa.css" beforeDir="false" afterPath="$PROJECT_DIR$/_book/gitbook/gitbook-plugin-theme-fexa/fexa.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_book/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/report.20210723.162746.14028.001.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/_book/search_plus_index.json" beforeDir="false" afterPath="$PROJECT_DIR$/_book/search_plus_index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/androidssr.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/iosquan.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/iosrocket.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/loss.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/macssr.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/config/ready.md" beforeDir="false" afterPath="$PROJECT_DIR$/config/ready.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/setup.md" beforeDir="false" afterPath="$PROJECT_DIR$/config/setup.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/start.md" beforeDir="false" afterPath="$PROJECT_DIR$/config/start.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/tos.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/winssr.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/gitbook-plugin-theme-fexa/_assets/fexa.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/gitbook-plugin-theme-fexa/_assets/fexa.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report.20210723.162746.14028.001.json" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +75,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/function" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -93,6 +129,24 @@
       <workItem from="1629713870694" duration="1650000" />
       <workItem from="1629792162968" duration="599000" />
       <workItem from="1629873487577" duration="3874000" />
+      <workItem from="1630416342990" duration="9765000" />
+      <workItem from="1630496050006" duration="13867000" />
+      <workItem from="1630549157239" duration="3474000" />
+      <workItem from="1630587569066" duration="10103000" />
+      <workItem from="1630641314152" duration="904000" />
+      <workItem from="1630681429425" duration="4815000" />
+      <workItem from="1630758773261" duration="5045000" />
+      <workItem from="1630839800201" duration="10121000" />
+      <workItem from="1630932854274" duration="8755000" />
+      <workItem from="1630994860544" duration="599000" />
+      <workItem from="1631019942132" duration="13724000" />
+      <workItem from="1631075072775" duration="1274000" />
+      <workItem from="1631163401957" duration="837000" />
+      <workItem from="1631251672337" duration="1797000" />
+      <workItem from="1631371252912" duration="1899000" />
+      <workItem from="1631451794733" duration="1220000" />
+      <workItem from="1631700707822" duration="7860000" />
+      <workItem from="1631885317629" duration="599000" />
     </task>
     <servers />
   </component>
