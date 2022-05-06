@@ -1,6 +1,6 @@
 
 <div class="wrap-ep1">吃货星球™</div>
-<div class="wrap-ep2">微信小程序部署&运营文档</div>
+<div class="wrap-ep2">微信小程序部署文档</div>
 <div class="wrap-ep3">本文档适用于微信小程序V3.6以上版本及新版小程序，旨在为您提供便捷的操作指南。请使用导航栏或搜索工具快速定位您的需求。</div>
 <a class="wrap-ep4" href="config/start.md">开始查看</a>
 
