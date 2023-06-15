@@ -1,0 +1,24 @@
+{
+  "redirects": [
+    {
+      "from": "/demo/",
+      "to": "/examples/"
+    },
+    {
+      "from": "/enterprise/",
+      "to": "/"
+    },
+    {
+      "from": "/headset/",
+      "to": "/"
+    },
+    {
+      "from": "/docs/getting-started/overview/",
+      "to": "/docs/"
+    },
+    {
+      "from": "/docs/",
+      "to": "/docs/versioned_docs/version-5.x.x/"
+    }
+  ]
+}

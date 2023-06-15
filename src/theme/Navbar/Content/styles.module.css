@@ -1,0 +1,13 @@
+/* 在移动端或小视口中隐藏颜色模式切换 */
+@media (max-width: 996px) {
+  .colorModeToggle {
+    margin-left: -72px;
+    margin-right: 36px;
+  }
+}
+@media (min-width: 768px) and (max-width: 996px) {
+  .colorModeToggle {
+    margin-left: calc(162px * -2);
+    margin-right: 162px;
+  }
+}

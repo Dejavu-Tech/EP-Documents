@@ -1,0 +1,87 @@
+{
+  "someSidebar": [
+    {
+      "type": "category",
+      "label": "开始",
+      "items": [
+        "getting-started/overview"
+      ],
+      "collapsible": true,
+      "collapsed": false
+    },
+    {
+      "type": "category",
+      "label": "准备工作",
+      "items": [
+        "get-ready/register",
+        "get-ready/server",
+        "get-ready/deploy",
+        "get-ready/more"
+      ],
+      "collapsible": true,
+      "collapsed": true
+    },
+    {
+      "type": "category",
+      "label": "基础运营",
+      "items": [
+        "operate/config",
+        "operate/start",
+        "operate/user",
+        "operate/community-head",
+        "operate/supply",
+        "operate/salesroom",
+        "operate/goods",
+        "operate/distribution",
+        "operate/order"
+      ],
+      "collapsible": true,
+      "collapsed": true
+    },
+    {
+      "type": "category",
+      "label": "进阶运营",
+      "items": [
+        {
+          "type": "category",
+          "label": "进阶功能",
+          "items": [
+            "advanced/features/coupon",
+            "advanced/features/fullreduction",
+            "advanced/features/points",
+            "advanced/features/adv",
+            "advanced/features/recharge",
+            "advanced/features/vipcard"
+          ],
+          "collapsible": true,
+          "collapsed": true
+        },
+        {
+          "type": "category",
+          "label": "营销裂变",
+          "link": {
+            "type": "doc",
+            "id": "advanced/marketing/overview"
+          },
+          "items": [
+            "advanced/marketing/distribution",
+            "advanced/marketing/group",
+            "advanced/marketing/seckill",
+            "advanced/marketing/recipe",
+            "advanced/marketing/solitaire",
+            "advanced/marketing/special",
+            "advanced/marketing/presale",
+            "advanced/marketing/invitegift",
+            "advanced/marketing/virtualcard"
+          ],
+          "collapsible": true,
+          "collapsed": true
+        },
+        "advanced/management-mode"
+
+      ],
+      "collapsible": true,
+      "collapsed": false
+    }
+  ]
+}

@@ -1,191 +1,40 @@
+# <img src="https://image.ch871.com/new_logo.png" width="40px" align="left" alt="Eater Planet 吃货星球"/> &nbsp;Eater Planet 吃货星球 5.x 文档
 
-<div class="wrap-ep1">吃货星球™</div>
-<div class="wrap-ep2">微信小程序部署文档</div>
-<div class="wrap-ep3">本文档适用于微信小程序V3.6以上版本及新版小程序，旨在为您提供便捷的操作指南。请使用导航栏或搜索工具快速定位您的需求。</div>
-<a class="wrap-ep4" href="config/start.md">开始查看</a>
+本网站是使用静态网站生成器[Docusaurus 2](https://v2.docusaurus.io/)构建
 
-<style>
-.page-footer{
-    display: none;
-}
-#book-search-input {
-    display:none;
-}
-.wrap-ep1{
-    position: absolute;
-    display: block;
-    pointer-events: auto;
-    z-index: 18;
-    font-family: "Fira Sans";
-    height: auto;
-    width: auto;
-    left: 10vh;
-    bottom: 37vh;
-    color: rgb(255, 255, 255);  
-    text-decoration: none;
-    white-space: pre-wrap;
-    min-height: 0;
-    min-width: 0;
-    max-height: none;
-    max-width: none;
-    text-align: left;
-    line-height: 120px;
-    letter-spacing: 0;
-    font-weight: 500;
-    font-size: 90px;
-    transform-origin: 50% 50%;
-    opacity: 1;
-    transform: translate(0px, 0px);
-    visibility: visible;
-    
-}
-.wrap-ep2{
-    position: absolute;
-    display: block;
-    pointer-events: auto;
-    z-index: 18;
-    font-family: "Fira Sans";
-    height: auto;
-    width: auto;
-    left: 10vh;
-    bottom: 30vh;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    white-space: pre-wrap;
-    min-height: 0px;
-    min-width: 0px;
-    max-height: none;
-    max-width: none;
-    text-align: left;
-    line-height: 55px;
-    letter-spacing: 0px;
-    font-weight: 400;
-    font-size: 40px;
-    transform-origin: 50% 50%;
-    opacity: 1;
-    transform: translate(0px, 0px);
-    visibility: visible;
-}
-.wrap-ep3{
-    position: absolute;
-    display: block;
-    pointer-events: auto;
-    z-index: 18;
-    font-family: "Fira Sans";
-    height: auto;
-    width: auto;
-    left: 10vh;
-    right: 20vh;
-    bottom: 20vh;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    white-space: pre-wrap;
-    min-height: 0;
-    min-width: 0;
-    max-height: none;
-    max-width: none;
-    text-align: left;
-    line-height: 30px;
-    letter-spacing: 0;
-    font-weight: 400;
-    font-size: 20px;
-    transform-origin: 50% 50%;
-    opacity: 1;
-    transform: translate(0px, 0px);
-    visibility: visible;
-}
-.wrap-ep4{
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.75)!important;
-    display: block;
-    pointer-events: auto;
-    z-index: 18;
-    font-family: "Fira Sans";
-    height: auto;
-    width: 280px;
-    left: 10vh;
-    padding: 16px 10px;
-    bottom: 10vh;
-    color: rgb(255, 255, 255)!important;
-    text-decoration: none;
-    white-space: pre-wrap;
-    min-height: 0;
-    min-width: 0;
-    max-height: none;
-    max-width: none;
-    text-align: center;
-    line-height: 30px;
-    letter-spacing: 0;
-    font-weight: 700;
-    font-size: 18px;
-    transform-origin: 50% 50%;
-    opacity: 1;
-    transform: translate(0px, 0px);
-    visibility: visible;
-}
+## 安装
 
-.body-inner{
-    z-index: 8;
-    background: linear-gradient(115deg, rgba(24,117,200,0.71) 0%, rgba(91,178,255,0.71) 100%);
-    color: rgb(255, 255, 255);
-    width: 100%;
-    height: 100%;
-    min-height: 0;
-    min-width: 0;
-    max-height: none;
-    max-width: none;
-    transform-origin: 50% 50%;
-    opacity: 1;
-    transform: translate(0px, 0px);
-    visibility: visible;
-}
+```console
+yarn install
+```
 
-.page-inner{
-    height: calc(100vh - 50px);
-}
+## 本地开发
 
-.book-body{
-	background-image: url("./im003.jpg");
-	background-repeat: no-repeat;
-	background-size: cover; 
-	background-position: 50% 50%; 
-	opacity: 1; 
-	transform: translate(0px, 0px); 
-	visibility: inherit; 
-	z-index: 20;
-}
-@media (max-width: 1240px){
-.page-inner{
-    height: calc(100vh - 120px);
-}
-.book-body {
-    padding-bottom: 0px;
-}
-.book-body .body-inner {
-    position: static;
-    height: calc(100vh - 70px);
-}
-.wrap-ep1{
-    font-size: 50px;
-    left: 5vh;
-    right: 5vh;
-    bottom: 37vh;
-}
-.wrap-ep2{
-    font-size: 22px;
-    left: 5vh;
-    right: 5vh;
-    bottom: 32vh;
-}
-.wrap-ep3{
-    font-size: 13px;
-    left: 5vh;
-    right: 5vh;
-}
-.wrap-ep4{
-    font-size: 18px;
-    left: 5vh;
-    right: 5vh;
-}
-}
-</style>
+```console
+yarn start
+```
+
+此命令启动本地开发服务器并自动打开浏览器窗口[localhost:3000]（http://localhost:3000)。大多数文档更改都会实时编译，无需重新启动服务器
+
+## 构建
+
+```console
+yarn build
+```
+
+此命令将静态内容生成到`build`目录中，可以使用任何静态内容托管服务器进行发布
+
+## 发布
+
+```console
+GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
+```
+
+如果您使用 GitHub 页面进行托管，此命令是构建网站并推送到`gh-pages`分支的快捷方法
+
+## 许可证及版权所有
+
+&nbsp;&nbsp;[GNU AGPL v3.0](https://github.com/Dejavu-Tech/EP-Documents/blob/main/LICENSE)
+<img src="https://image.ch871.com/rexotech.png" width="25px" align="left" alt="Dejavu Tech."/>
+Copyright © 2019-2023 Dejavu Tech. (YN) Co., Ltd. <a href="https://www.rexotech.cn">官网</a> 
+
