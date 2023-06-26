@@ -14,7 +14,7 @@ const tutorialData = require("./tutorial-units");
 /** @type {import('@docusaurus/types/src/index').DocusaurusConfig} */
 const siteConfig = {
     title: "Eater Planet 吃货星球",
-    tagline: "先进的B2C电商解决方案",
+    tagline: "先进的 B2C 电商解决方案",
     url: "http://localhost:80/",
     baseUrl: "/",
     projectName: "Eater Planet 吃货星球",
@@ -158,9 +158,9 @@ const siteConfig = {
         },
         image: "img/new-ep.svg",
         algolia: {
-            appId: "OINCA16HT6",
-            apiKey: "d5f7edaf202bc077df7674241ebfb608",
-            indexName: "eaterplanet",
+            appId: "CJA938BLYU",
+            apiKey: "f702fcfcf449bc0bbe3ab85a2e5011f4",
+            indexName: "ch871",
             "searchableAttributes": ["title", "content"],
             contextualSearch: true,
         },
