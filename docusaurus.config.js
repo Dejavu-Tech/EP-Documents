@@ -15,7 +15,7 @@ const tutorialData = require("./tutorial-units");
 const siteConfig = {
     title: "Eater Planet 吃货星球",
     tagline: "先进的 B2C 电商解决方案",
-    url: "http://localhost:80/",
+    url: "https://docs.ch871.com/",
     baseUrl: "/",
     projectName: "Eater Planet 吃货星球",
     organizationName: "Dejavu Tech.",
@@ -56,6 +56,12 @@ const siteConfig = {
                             "create-example",
                         ],
                     },
+                },
+                sitemap: {
+                    changefreq: 'weekly',
+                    priority: 0.5,
+                    ignorePatterns: ['/tags/**'],
+                    filename: 'sitemap.xml',
                 },
                 blog: false,
                 theme: {
