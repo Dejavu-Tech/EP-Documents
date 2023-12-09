@@ -22,7 +22,7 @@ function ResultsFooter({ state, onClose }) {
                 id="theme.SearchBar.seeAll"
                 values={{ count: state.context.nbHits }}
             >
-                {"See all {count} results"}
+                {"查看共 {count} 条结果"}
             </Translate>
         </Link>
     );
