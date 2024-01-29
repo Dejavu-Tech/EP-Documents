@@ -176,20 +176,26 @@ export default function FooterLayout({
                 </div>*/}
                 <div className="h-2.5 w-full border-0 border-b-2 border-solid border-b-[#9696B4]" />
                 <div className="flex flex-1 flex-col-reverse gap-6 lg:flex-row lg:gap-0">
-
-                        <div className="flex items-center justify-center text-[11px] leading-[12px] text-[#9696B4] sm:text-xs lg:justify-start">
-                            © {new Date().getFullYear()} EP-Project Team of Dejavu Tech.{" "}
-                            <LoveIcon
-                                className="ml-2"
-                                onClick={() => {
-                                    leftReward();
-                                    rightReward();
-                                }}
-                            />
-                        </div>
-                        <div className="flex h-[18px] flex-[2] items-center justify-center gap-4 text-xs text-[#9696B4] sm:justify-start lg:justify-end">
-                            {legalLinks?.items?.map?.((item, i) => (
-                              <a
+                    <div className="flex items-center justify-center text-[11px] leading-[12px] text-[#9696B4] sm:text-xs lg:justify-start">
+                        © {new Date().getFullYear()} EP-Project Team of Dejavu Tech.{" "}
+                        <LoveIcon
+                            className="mx-2"
+                            onClick={() => {
+                                leftReward();
+                                rightReward();
+                            }}
+                        />
+                        {" "}
+                        <a
+                            href="https://beian.miit.gov.cn/"
+                            className="text-[#9696B4]"
+                        >
+                            滇 ICP 备 19006701 号 - 7
+                        </a>
+                    </div>
+                    <div className="flex h-[18px] flex-[2] items-center justify-center gap-4 text-xs text-[#9696B4] sm:justify-start lg:justify-end">
+                        {legalLinks?.items?.map?.((item, i) => (
+                            <a
                                 key={i}
                                 href={item.to}
                                 className="text-[#9696B4]"
